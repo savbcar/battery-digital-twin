@@ -1,0 +1,2 @@
+[console_scripts]
+battery-twin = battery_twin.cli:main

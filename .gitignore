@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+results/*.db
+results/generated/
+data/public/*
+!data/public/.gitkeep
+.DS_Store

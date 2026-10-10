@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: battery-digital-twin
+Version: 1.0.0
+Summary: EV battery 1-RC/2-RC digital twin and EKF SOC estimation platform
+Requires-Python: >=3.11
+License-File: LICENSE
+License-File: LICENSE:Zone.Identifier
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.1
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: PyYAML>=6.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
+Dynamic: license-file

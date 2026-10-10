@@ -1,0 +1,6 @@
+services:
+  battery-twin:
+    build: .
+    volumes:
+      - ./results:/app/results
+    command: ["all"]

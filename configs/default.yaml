@@ -1,0 +1,33 @@
+simulation:
+  dt_s: 1.0
+  duration_s: 1800
+  seed: 42
+  initial_soc_true: 0.85
+  initial_soc_est: 0.70
+  voltage_noise_std_v: 0.008
+  current_noise_std_a: 0.05
+
+true_model:
+  capacity_ah: 3.0
+  r0_ohm: 0.012
+  r1_ohm: 0.010
+  c1_farad: 2400.0
+  r2_ohm: 0.006
+  c2_farad: 20000.0
+
+estimator_model:
+  capacity_ah: 3.06
+  r0_ohm: 0.0126
+  r1_ohm: 0.0095
+  c1_farad: 2520.0
+  r2_ohm: 0.0063
+  c2_farad: 19000.0
+
+ekf:
+  q_soc: 2.0e-8
+  q_v1: 2.0e-6
+  q_v2: 1.0e-6
+  r_voltage: 1.0e-4
+  p0_soc: 2.5e-3
+  p0_v1: 4.0e-4
+  p0_v2: 4.0e-4
