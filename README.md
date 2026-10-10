@@ -1,5 +1,7 @@
 # EV Battery Digital Twin & State Estimation Platform
 
+[![CI](https://github.com/savbcar/battery-digital-twin/actions/workflows/ci.yml/badge.svg)](https://github.com/savbcar/battery-digital-twin/actions/workflows/ci.yml)
+
 A portfolio-grade battery-modeling and SOC-estimation project built to connect
 battery physics, state-space modeling, Extended Kalman Filtering, numerical
 validation and engineering software practices.
