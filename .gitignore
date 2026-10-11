@@ -9,3 +9,5 @@ results/generated/
 data/public/*
 !data/public/.gitkeep
 .DS_Store
+
+*:Zone.Identifier
