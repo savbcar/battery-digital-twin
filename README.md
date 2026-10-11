@@ -119,7 +119,7 @@ while propagating the state covariance and applying voltage-based corrections.
 ### Windows PowerShell
 
 ```powershell
-git clone <YOUR-REPO-URL>
+git clone https://github.com/savbcar/battery-digital-twin.git
 cd battery-digital-twin
 
 py -3.12 -m venv .venv
